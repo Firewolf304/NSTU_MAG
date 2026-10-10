@@ -2,6 +2,4 @@
 	path = sem2_parprog_lavandovskiy
 	url = ../NSTU_MAG
 	branch = sem2_parprog_lavandovskiy
-[submodule "sem1_vichsystems_kachalskiy/clustthinkes"]
-	path = sem1_vichsystems_kachalskiy/clustthinkes
-	url = https://gitlab.com/Firewolf304/clustthinkers.git
+
