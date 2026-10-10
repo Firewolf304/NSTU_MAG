@@ -1,0 +1,4 @@
+[submodule "jobprovider"]
+	path = jobprovider
+	url = https://gitlab.com/Firewolf304/jobprovider.git
+	branch = dev
