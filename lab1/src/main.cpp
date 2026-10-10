@@ -58,11 +58,11 @@ int main() {
   });
   funcs.clear();*/
 
-  const unsigned HardwareThreads =
+  const auto HardwareThreads =
       std::max(1u, std::thread::hardware_concurrency() * 2);
 
   const int parallels = b + 1;
-  const unsigned ThreadCount = std::min<unsigned>(HardwareThreads, parallels);
+  const size_t ThreadCount = std::min<size_t>(HardwareThreads, parallels);
 
   std::vector<ResultType> partial_sums(ThreadCount);
   std::vector<std::jthread> threads;
