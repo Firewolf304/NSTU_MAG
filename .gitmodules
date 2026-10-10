@@ -7,3 +7,7 @@
 	path = sem1_vichsystems_kachalskiy
 	url = ../NSTU_MAG
 	branch = sem1_vichsystems_kachalskiy
+[submodule "sem1_tech.dev.software_shornikov"]
+	path = sem1_tech.dev.software_shornikov
+	url = ../NSTU_MAG
+	branch = sem1_tech.dev.software_shornikov
