@@ -1,0 +1,3 @@
+[submodule "parser-nuxt"]
+	path = parser-nuxt
+	url = https://gitlab.com/Firewolf304/parser-nuxt
