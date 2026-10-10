@@ -11,3 +11,7 @@
 	path = sem1_tech.dev.software_shornikov
 	url = ../NSTU_MAG
 	branch = sem1_tech.dev.software_shornikov
+[submodule "Kursovaya"]
+	path = Kursovaya
+	url = ../NSTU_MAG
+	branch = Kursovaya
