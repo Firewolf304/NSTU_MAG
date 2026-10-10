@@ -1,0 +1,4 @@
+[submodule "sem2_parprog_lavandovskiy"]
+	path = sem2_parprog_lavandovskiy
+	url = ../NSTU_MAG
+	branch = sem2_parprog_lavandovskiy
