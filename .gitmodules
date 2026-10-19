@@ -1,8 +1,7 @@
-[submodule "sem2_parprog_lavandovskiy"]
-	path = sem2_parprog_lavandovskiy
+[submodule "sem3_parprog_lavandovskiy"]
+	path = sem3_parprog_lavandovskiy
 	url = ../NSTU_MAG
-	branch = sem2_parprog_lavandovskiy
-
+	branch = sem3_parprog_lavandovskiy
 [submodule "sem1_vichsystems_kachalskiy"]
 	path = sem1_vichsystems_kachalskiy
 	url = ../NSTU_MAG
