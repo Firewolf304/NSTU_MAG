@@ -15,3 +15,7 @@
 	path = Kursovaya
 	url = ../NSTU_MAG
 	branch = Kursovaya
+[submodule "sem3_ib_murtazina"]
+	path = sem3_ib_murtazina
+	url = ../NSTU_MAG
+	branch = sem3_ib_murtazina
