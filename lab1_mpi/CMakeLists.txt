@@ -29,6 +29,7 @@ add_subdirectory(src)
 # Packages and main target
 include(cmake/Packages.cmake)
 add_executable(${PROJECT_NAME} src/main.cpp)
+target_compile_definitions(${PROJECT_NAME} PRIVATE MPI_METHOD=${MPI_METHOD})
 include(cmake/Targets.cmake)
 
 # Add tests

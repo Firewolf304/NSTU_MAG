@@ -50,6 +50,26 @@ cmake --build --preset gcc-debug -j
 ```
 Build artifacts are placed in ./ninja-gcc-debug/ or ./ninja-clang-debug/.
 
+## MPI integral
+
+The program integrates `x * x` on `[0, 1]` using 1,200,000,000 midpoint
+rectangles (the exact result is `1/3`). Choose the communication method at
+configure time with `MPI_METHOD` in `cmake/LocalSet.cmake` or on the command
+line. The value is cached, so use `-DMPI_METHOD=...` to change it in an
+existing build directory:
+
+```sh
+cmake --preset ninja-gcc-release -DMPI_METHOD=2
+cmake --build --preset gcc-release
+mpirun -np 4 ./ninja-gcc-release/bin/lab1_mpi
+```
+
+Methods: `1` is Send/Recv, `2` is Scatter/Gather, and `3` is local interval
+calculation with Reduce. The timer uses `std::chrono::steady_clock` and covers
+interval distribution, integration and result collection, after a barrier.
+The runtime depends on the machine and build type; increase `n` in
+`src/main.cpp` if one process finishes in less than half a second.
+
 ## Docs
 * [Install](docs/installs.md)
 
