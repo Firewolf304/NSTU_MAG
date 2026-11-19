@@ -33,6 +33,7 @@ int main(int argc, char **argv) {
   auto start = std::chrono::steady_clock::now();
   std::array<double, 2> local_bounds{};
 
+// send
 #if MPI_METHOD == 1
   if (rank == 0) {
     local_bounds = bounds_for(0);
@@ -62,6 +63,7 @@ int main(int argc, char **argv) {
 #error "MPI_METHOD must be 1/2/3"
 #endif
 
+  // solution
   double local_sum = 0.0;
   for (LongType i = 0; i < local_n; ++i) {
     double x_mid = local_bounds[0] + (i + 0.5) * h;
@@ -70,6 +72,7 @@ int main(int argc, char **argv) {
   double local_result = local_sum * h;
   double total_result = 0.0;
 
+// recv
 #if MPI_METHOD == 1
   if (rank == 0) {
     total_result = local_result;
