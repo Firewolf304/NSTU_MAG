@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-g++"
+	BuildStamp="20261023-1151-Experimental"
+	Name="glitchdos"
+	Generator="ctest-3.31.11"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="15.2.1"
+	OSName="Linux"
+	Hostname="glitchdos"
+	OSRelease="6.18.40.1-microsoft-standard-WSL2"
+	OSVersion="#1 SMP PREEMPT_DYNAMIC Fri Jul 31 22:12:15 UTC 2026"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="25"
+	ModelID="116"
+	ModelName="AMD Ryzen 5 7640HS w/ Radeon 760M Graphics"
+	ProcessorCacheSize="1024"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="2048"
+	TotalPhysicalMemory="7535"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4291.69"
+	>
+	<Testing>
+		<StartDateTime>Oct 23 18:51 +07</StartDateTime>
+		<StartTestTime>1792756311</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 23 18:51 +07</EndDateTime>
+		<EndTestTime>1792756311</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
